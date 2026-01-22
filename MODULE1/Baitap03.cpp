@@ -14,7 +14,7 @@ int main () {
 				n /= 10;
 			}
 			else {
-				break;
+				continue;
 			}
 	}
 	
@@ -28,5 +28,4 @@ int main () {
 	}
 	std::cout << "\nTong cac so la : " << sum << "\n" << "Trung binh la: " << sum/6;
 	return 0;
-	
 }
